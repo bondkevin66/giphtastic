@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+  background-image: url(images/Cave.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+   font-family: 'Carrois Gothic SC', sans-serif;
+	}
+
+.text{
+
+	text-align: center;
+	color: gold;
+	font-weight: bold;
+}
+
+#add{
+
+	color: gold;
+
+}
+
+.btn-primary {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: gold;
+    color: black;
+    border-style: none;
+}
+
+.btn-primary:hover {
+    background: black;
+    color: gold;
+}
+
+.fix {
+  position:fixed;
+  bottom:-700px;
+  left:50%;
+}
+
+#intro {
+  background: grey;
+  color:gold;
+  border-style: solid;
+  border-color: black;
+}
+
+#submitvillain {
+
+	background: gold;
+    color: black;
+    border-style: none;
+}
+
+#submitvillain:hover {
+    background: black;
+    color: gold;
+}
+
+#villain{
+
+    color: gold;
+    font-family: avenir;
+
+}
+
+#villain-input{
+
+	width: 30%;
+}

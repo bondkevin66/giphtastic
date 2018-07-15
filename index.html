@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gif Tastic villain</title>
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text">Gifs By Gotham</h1>
+        <br>
+        <br>
+        <div id="villain-buttons"> </div>
+        <br>
+        <br>
+        <div class="container" id="villainbtn">
+            <form id="villain-form">
+                <label id="add" for="villain-input">Search Records For Villain</label>
+                <input type="text" class="form-control" id="villain-input">
+                <br>
+                <br>
+            </form>
+            <button onclick="submitButtonClicked()" type="button" id="submitvillain" class="btn btn-success">Submit</button>
+            <br>
+            <br>
+            <div id="villain"> </div>
+        </div>
+    </div>
+    <div id="intro" style="background">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <p>Batman must remain ever vigilant. Choose a villain to help Batman study his opponents using all surveillance footage in Gotham City. If any of them was to escape again, Batman needs to be prepared.</p>
+    </div>
+    <img src="./assets/images/hot-toys-batman-bvs-01.png" class="fix"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript.js"></script>
+</body>
+
+</html>
